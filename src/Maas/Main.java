@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) 
     {
        GunHesabi gun = new GunHesabi(22,18,8,30);
-       Kisi kisi = new Kisi("Efe Cüneyt Özgür", true, 2);
+       Kisi kisi = new Kisi("Kemal Yılmaz", true, 0);
        SGK sgk = new SGK();
        AGI agi = new AGI();
        Kesintiler kesintiler = new Kesintiler();
@@ -12,13 +12,16 @@ public class Main {
        hakedis.setGunlukUcret(gun);
        hakedis.setBayramYardimi(true);
        hakedis.setYemekYardimi(gun);
+       kesintiler.setAsgariGecimIndirimi(agi, 1);
        hakedis.setCocukYardimi(gun, kisi);
        sgk.setSGK_Matrah(hakedis);
        kesintiler.setGV_Matrahi(sgk);
        kesintiler.setDamgaVergisi(hakedis);
        kesintiler.setKesintilerToplami(sgk);
        hakedis.setToplamTahakkuk(sgk);
-       hakedis.setAsgariGecimIndirimi(agi, 10);
+       
+       System.out.println(kisi.getAdSoyad()+" kişisine ait maaş dökümü");
+        System.out.println("--------------------------------------------");
        
        System.out.println("Günlük Ücret : " + hakedis.getGunlukUcret());
        System.out.println("Yemek Yardımı : " + hakedis.getYemekYardimi());
@@ -41,6 +44,7 @@ public class Main {
        System.out.println("Toplam Tahakkuk : " + hakedis.getToplamTahakkuk());
        System.out.println("**************Kesintiler***********************");        
        System.out.println("Gelir Vergisi Matrahı : " + kesintiler.getGV_Matrahi());
+       System.out.println("Asgari Geçim İndirimi Tutarı : " + kesintiler.getAsgariGecimIndirimi());       
        System.out.println("Gelir Vergisi  : " + kesintiler.getGelirVergisi());
        System.out.println("Damga Vergisi  : " + kesintiler.getDamgaVergisi());
        System.out.println("Kesintiler Toplamı : " + kesintiler.getKesintilerToplami());
@@ -48,7 +52,7 @@ public class Main {
        
        
        
-       System.out.println("Asgari Geçim İndirimi Tutarı : " + hakedis.getAsgariGecimIndirimi());
+
        
        
        

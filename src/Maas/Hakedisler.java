@@ -11,18 +11,6 @@ public class Hakedisler {
     private double asgariGecimIndirimi; 
     
     
-  
-    public double getAsgariGecimIndirimi() {
-        return asgariGecimIndirimi;
-    }
-    
-    public void setAsgariGecimIndirimi(AGI agi, int i) {
-        double yolla = agi.asgariGecim(i);
-        this.asgariGecimIndirimi = yolla;
-    }
-
-    
-    
     public double getGunlukUcret() {
         return gunlukUcret;
     }
