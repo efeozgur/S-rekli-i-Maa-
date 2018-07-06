@@ -11,8 +11,6 @@ public class Main {
        Hakedisler hakedis= new Hakedisler();
        
 
-       
-       
        hakedis.setGunlukUcret(gun);
        hakedis.setBayramYardimi(true);
        hakedis.setYemekYardimi(gun);
