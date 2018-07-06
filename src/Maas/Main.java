@@ -46,7 +46,7 @@ public class Main {
        System.out.println("Gelir Vergisi Matrahı : " + kesintiler.getGV_Matrahi());
        System.out.println("Asgari Geçim İndirimi Tutarı : " + kesintiler.getAsgariGecimIndirimi());       
        System.out.println("Gelir Vergisi  : " + kesintiler.getGelirVergisi());
-       System.out.println("Damgaaa Vergisi  : " + kesintiler.getDamgaVergisi());
+       System.out.println("Damgaaaaaaa Vergisi  : " + kesintiler.getDamgaVergisi());
        System.out.println("Kesintiler Toplamı : " + kesintiler.getKesintilerToplami());
        System.out.println("Net Ödenen : " + hakedis.netOdenen(kesintiler));
 
