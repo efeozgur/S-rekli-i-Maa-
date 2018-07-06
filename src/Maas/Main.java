@@ -10,8 +10,7 @@ public class Main {
        Kesintiler kesintiler = new Kesintiler();
        Hakedisler hakedis= new Hakedisler();
        
-   //tekrar .. .
-       
+
        
        
        hakedis.setGunlukUcret(gun);
