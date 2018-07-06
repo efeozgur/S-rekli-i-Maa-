@@ -11,7 +11,7 @@ public class Main {
        Hakedisler hakedis= new Hakedisler();
        
        
-       //bu deneme satırıdır.
+       //bu deneme satırı masaüstü bilgisayarda değişti... 
        hakedis.setGunlukUcret(gun);
        hakedis.setBayramYardimi(true);
        hakedis.setYemekYardimi(gun);
