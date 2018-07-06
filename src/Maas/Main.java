@@ -21,7 +21,7 @@ public class Main {
        hakedis.setToplamTahakkuk(sgk);
        
        System.out.println(kisi.getAdSoyad()+" kişisine ait maaş dökümü");
-        System.out.println("--------------------------------------------");
+       System.out.println("********************************************");
        
        System.out.println("Günlük Ücret : " + hakedis.getGunlukUcret());
        System.out.println("Yemek Yardımı : " + hakedis.getYemekYardimi());
