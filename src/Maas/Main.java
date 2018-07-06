@@ -9,6 +9,9 @@ public class Main {
        AGI agi = new AGI();
        Kesintiler kesintiler = new Kesintiler();
        Hakedisler hakedis= new Hakedisler();
+       
+       
+       
        hakedis.setGunlukUcret(gun);
        hakedis.setBayramYardimi(true);
        hakedis.setYemekYardimi(gun);
