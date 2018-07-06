@@ -10,16 +10,7 @@ public class Main {
        Kesintiler kesintiler = new Kesintiler();
        Hakedisler hakedis= new Hakedisler();
        
-       /*
-       bu deneme satırı masaüstü bilgisayardan değiştirildi....
-       çok satırlı açıklama satırları
-       
-       bu satırda laptopta yazıldı. 
-       
-       aha şimdi bi daha yazdım
-       
-       bunuda masaüstü bilgisayardan yazdım
-       */
+   
        
        hakedis.setGunlukUcret(gun);
        hakedis.setBayramYardimi(true);
