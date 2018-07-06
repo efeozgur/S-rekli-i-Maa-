@@ -10,7 +10,7 @@ public class Main {
        Kesintiler kesintiler = new Kesintiler();
        Hakedisler hakedis= new Hakedisler();
        
-
+//şimdide şuna bakalım
        
        
        hakedis.setGunlukUcret(gun);
