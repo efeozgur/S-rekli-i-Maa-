@@ -18,8 +18,7 @@ public class Main {
        kesintiler.setGV_Matrahi(sgk);
        kesintiler.setDamgaVergisi(hakedis);
        kesintiler.setKesintilerToplami(sgk);
-       hakedis.setToplamTahakkuk(sgk);
-       
+       hakedis.setToplamTahakkuk(sgk);       
        System.out.println(kisi.getAdSoyad()+" kişisine ait maaş dökümü");
        System.out.println("********************************************");       
        System.out.println("Günlük Ücret : " + hakedis.getGunlukUcret());
@@ -27,8 +26,7 @@ public class Main {
        System.out.println("Çocuk Yardımı : " + hakedis.getCocukYardimi());
        System.out.println("Yakacak Yardımı : " + Sabitler.YAKACAK_YARDIM_UCRETİ);
        System.out.println("Bayram Yardımı : " + hakedis.getBayramYardimi());      
-       System.out.println("Hakediş Toplamı : " + hakedis.hakedisToplami());
-       
+       System.out.println("Hakediş Toplamı : " + hakedis.hakedisToplami());       
        System.out.println("***********************************************");      
        System.out.println("SGK Matrahı : " + sgk.getSGK_Matrah());       
        System.out.println("%20.5 : " + sgk.getYuzdeYirmiBucuk());
