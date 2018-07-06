@@ -17,6 +17,8 @@ public class Main {
        bu satırda laptopta yazıldı. 
        
        aha şimdi bi daha yazdım
+       
+       bunuda masaüstü bilgisayardan yazdım
        */
        
        hakedis.setGunlukUcret(gun);
