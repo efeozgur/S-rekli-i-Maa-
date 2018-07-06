@@ -49,14 +49,7 @@ public class Main {
        System.out.println("Damga Vergisi  : " + kesintiler.getDamgaVergisi());
        System.out.println("Kesintiler Toplamı : " + kesintiler.getKesintilerToplami());
        System.out.println("Net Ödenen : " + hakedis.netOdenen(kesintiler));
-       
-       
-       
-
-       
-       
-       
-        
+ 
     }
 }
     
