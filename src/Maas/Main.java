@@ -13,6 +13,8 @@ public class Main {
        /*
        bu deneme satırı masaüstü bilgisayardan değiştirildi....
        çok satırlı açıklama satırları
+       
+       bu satırda laptopta yazıldı. 
        */
        
        hakedis.setGunlukUcret(gun);
