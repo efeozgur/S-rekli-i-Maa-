@@ -15,6 +15,8 @@ public class Main {
        çok satırlı açıklama satırları
        
        bu satırda laptopta yazıldı. 
+       
+       aha şimdi bi daha yazdım
        */
        
        hakedis.setGunlukUcret(gun);
