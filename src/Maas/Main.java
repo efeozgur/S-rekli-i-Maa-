@@ -5,6 +5,11 @@ import com.hrzafer.javanta.IO;
 public class Main {
     public static void main(String[] args) 
     {
+       IO io = new IO();
+        String read = IO.read("e:\\a.txt","ISO-8859-9");
+        byte[] bytes = read.getBytes();
+        System.out.println(bytes[3]);
+        
         
        GunHesabi gun = new GunHesabi(22,18,8,30);
        Kisi kisi = new Kisi("Kemal Yılmaz", true, 0);
