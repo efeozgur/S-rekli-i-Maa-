@@ -31,7 +31,11 @@ public class anaForm extends javax.swing.JFrame {
         jMenu3 = new javax.swing.JMenu();
         jMenu1 = new javax.swing.JMenu();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        tblKisiBilgileri = new javax.swing.JTable();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        tblSosyalHaklar = new javax.swing.JTable();
+        lblKisiBilgileri = new javax.swing.JLabel();
+        lblSosyalHaklar = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -48,7 +52,7 @@ public class anaForm extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sürekli İşçi Maaş Programı V.1.0");
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tblKisiBilgileri.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null},
@@ -67,7 +71,26 @@ public class anaForm extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(tblKisiBilgileri);
+
+        tblSosyalHaklar.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "Yol Yardımı", "Yemek Yardımı", "Çocuk Yardımı", "Yakacak Yardımı", "Bayram Yardımı", "Diğer Yardımlar"
+            }
+        ));
+        jScrollPane2.setViewportView(tblSosyalHaklar);
+
+        lblKisiBilgileri.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblKisiBilgileri.setText("Kişi Bilgileri");
+
+        lblSosyalHaklar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblSosyalHaklar.setText("Sosyal Haklar");
 
         jMenuBar1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
@@ -95,15 +118,28 @@ public class anaForm extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1244, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblKisiBilgileri)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 620, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblSosyalHaklar))
+                        .addGap(0, 624, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(473, Short.MAX_VALUE))
+                .addGap(17, 17, 17)
+                .addComponent(lblKisiBilgileri)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24)
+                .addComponent(lblSosyalHaklar)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(638, Short.MAX_VALUE))
         );
 
         pack();
@@ -155,6 +191,10 @@ public class anaForm extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JLabel lblKisiBilgileri;
+    private javax.swing.JLabel lblSosyalHaklar;
+    private javax.swing.JTable tblKisiBilgileri;
+    private javax.swing.JTable tblSosyalHaklar;
     // End of variables declaration//GEN-END:variables
 }
