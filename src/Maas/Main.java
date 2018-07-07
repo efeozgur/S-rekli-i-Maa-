@@ -1,8 +1,11 @@
 package Maas;
 
+import com.hrzafer.javanta.IO;
+
 public class Main {
     public static void main(String[] args) 
     {
+        
        GunHesabi gun = new GunHesabi(22,18,8,30);
        Kisi kisi = new Kisi("Kemal Yılmaz", true, 0);
        SGK sgk = new SGK();
