@@ -32,19 +32,15 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="292" max="32767" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
                       <Component id="jSeparator1" min="-2" pref="351" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="1" attributes="0">
+                  <Component id="jSeparator2" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
@@ -56,20 +52,29 @@
                           <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cmbDonem" max="32767" attributes="0"/>
                           <Component id="jTextField2" alignment="1" max="32767" attributes="0"/>
                           <Component id="jTextField1" alignment="1" max="32767" attributes="0"/>
                           <Component id="jComboBox2" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jTextField7" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
                           <Component id="jComboBox1" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jTextField3" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                          <Component id="jTextField4" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                          <Component id="jTextField5" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                          <Component id="jTextField6" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField7" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="jTextField3" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="jTextField4" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="jTextField5" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="jTextField6" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
-                  <Component id="jSeparator2" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -79,8 +84,10 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="cmbDonem" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -129,7 +136,7 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
-              <EmptySpace pref="198" max="32767" attributes="0"/>
+              <EmptySpace pref="177" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -242,6 +249,29 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField7">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbDonem">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="15 Aral&#x131;k - 14 Ocak"/>
+            <StringItem index="1" value="15 Ocak - 14 &#x15e;ubat"/>
+            <StringItem index="2" value="15 &#x15e;ubat - 14 Mart"/>
+            <StringItem index="3" value="15 Mart - 14 Nisan"/>
+            <StringItem index="4" value="15 Nisan - 14 May&#x131;s"/>
+            <StringItem index="5" value="15 May&#x131;s - 14 Haziran"/>
+            <StringItem index="6" value="15 Haziran - 14 Temmuz"/>
+            <StringItem index="7" value="15 Temmuz - 14 A&#x11f;ustos"/>
+            <StringItem index="8" value="15 A&#x11f;ustos - 14 Eyl&#xfc;l"/>
+            <StringItem index="9" value="15 Eyl&#xfc;l - 14 Ekim"/>
+            <StringItem index="10" value="15 Ekim - 14 Kas&#x131;m"/>
+            <StringItem index="11" value="15 Kas&#x131;m - 14 Aral&#x131;k"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>
