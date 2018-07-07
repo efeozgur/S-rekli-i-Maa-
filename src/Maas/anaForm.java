@@ -36,6 +36,15 @@ public class anaForm extends javax.swing.JFrame {
         tblSosyalHaklar = new javax.swing.JTable();
         lblKisiBilgileri = new javax.swing.JLabel();
         lblSosyalHaklar = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        tblSGK = new javax.swing.JTable();
+        lblSGKPaylari = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        tblMatrah = new javax.swing.JTable();
+        lblMatrahlar = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        tblKesintiler = new javax.swing.JTable();
+        lblKesintiler = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -84,6 +93,7 @@ public class anaForm extends javax.swing.JFrame {
                 "Yol Yardımı", "Yemek Yardımı", "Çocuk Yardımı", "Yakacak Yardımı", "Bayram Yardımı", "Diğer Yardımlar"
             }
         ));
+        tblSosyalHaklar.setToolTipText("");
         jScrollPane2.setViewportView(tblSosyalHaklar);
 
         lblKisiBilgileri.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -91,6 +101,54 @@ public class anaForm extends javax.swing.JFrame {
 
         lblSosyalHaklar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblSosyalHaklar.setText("Sosyal Haklar");
+
+        tblSGK.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "%20.5 SGK İşveren Payı", "%14 SGK Kişi Payı", "%2 İşveren İşsizlik Sig. Primi", "%1 İşçi İşsizlik Sig. Primi"
+            }
+        ));
+        jScrollPane3.setViewportView(tblSGK);
+
+        lblSGKPaylari.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblSGKPaylari.setText("SGK Payları");
+
+        tblMatrah.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null}
+            },
+            new String [] {
+                "SGK Matrahı", "Gelir Vergisi Matrahı"
+            }
+        ));
+        jScrollPane4.setViewportView(tblMatrah);
+
+        lblMatrahlar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblMatrahlar.setText("Matrahlar");
+
+        tblKesintiler.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "Gelir Vergisi", "Damga Vergisi", "SGK İşveren%20.5", "İşsizlik Sigortası Primi İşveren %2", "SGK Kişi Payı %14", "İşsizlik Sigortası Primi %1"
+            }
+        ));
+        jScrollPane5.setViewportView(tblKesintiler);
+
+        lblKesintiler.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblKesintiler.setText("Kesintiler");
 
         jMenuBar1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
@@ -122,10 +180,25 @@ public class anaForm extends javax.swing.JFrame {
                     .addComponent(jScrollPane1)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblKisiBilgileri)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 620, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblKisiBilgileri)
                             .addComponent(lblSosyalHaklar))
-                        .addGap(0, 624, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblSGKPaylari)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 618, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblMatrahlar))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblKesintiler)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jScrollPane5))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -135,11 +208,23 @@ public class anaForm extends javax.swing.JFrame {
                 .addComponent(lblKisiBilgileri)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(24, 24, 24)
-                .addComponent(lblSosyalHaklar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(638, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblSosyalHaklar)
+                    .addComponent(lblSGKPaylari))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblMatrahlar)
+                    .addComponent(lblKesintiler))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addContainerGap(517, Short.MAX_VALUE))
         );
 
         pack();
@@ -192,9 +277,18 @@ public class anaForm extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JLabel lblKesintiler;
     private javax.swing.JLabel lblKisiBilgileri;
+    private javax.swing.JLabel lblMatrahlar;
+    private javax.swing.JLabel lblSGKPaylari;
     private javax.swing.JLabel lblSosyalHaklar;
+    private javax.swing.JTable tblKesintiler;
     private javax.swing.JTable tblKisiBilgileri;
+    private javax.swing.JTable tblMatrah;
+    private javax.swing.JTable tblSGK;
     private javax.swing.JTable tblSosyalHaklar;
     // End of variables declaration//GEN-END:variables
 }
