@@ -39,9 +39,9 @@ public class anaForm extends javax.swing.JFrame {
         cmbCocukSayisi = new javax.swing.JComboBox<>();
         tfTcNo = new javax.swing.JTextField();
         lblAdSoyad1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        btnYeniKayit = new javax.swing.JButton();
+        btnKayitGuncelle = new javax.swing.JButton();
+        btnKayitSil = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -82,11 +82,11 @@ public class anaForm extends javax.swing.JFrame {
         lblAdSoyad1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         lblAdSoyad1.setText("T.C. Kimlik No ");
 
-        jButton1.setText("Yeni Kayıt Yap");
+        btnYeniKayit.setText("Yeni Kayıt Yap");
 
-        jButton2.setText("Kaydı Güncelle");
+        btnKayitGuncelle.setText("Kaydı Güncelle");
 
-        jButton3.setText("Seçili Kaydı Sil");
+        btnKayitSil.setText("Seçili Kaydı Sil");
 
         javax.swing.GroupLayout jInternalFrame1Layout = new javax.swing.GroupLayout(jInternalFrame1.getContentPane());
         jInternalFrame1.getContentPane().setLayout(jInternalFrame1Layout);
@@ -110,11 +110,11 @@ public class anaForm extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jInternalFrame1Layout.createSequentialGroup()
-                                .addComponent(jButton1)
+                                .addComponent(btnYeniKayit)
                                 .addGap(14, 14, 14)
-                                .addComponent(jButton2)
+                                .addComponent(btnKayitGuncelle)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton3))
+                                .addComponent(btnKayitSil))
                             .addComponent(cmbMedeniDurum, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(cmbCocukSayisi, 0, 325, Short.MAX_VALUE))))
                 .addGap(14, 14, 14))
@@ -140,9 +140,9 @@ public class anaForm extends javax.swing.JFrame {
                     .addComponent(cmbCocukSayisi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(btnYeniKayit)
+                    .addComponent(btnKayitGuncelle)
+                    .addComponent(btnKayitSil))
                 .addContainerGap(37, Short.MAX_VALUE))
         );
 
@@ -226,11 +226,11 @@ public class anaForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnKayitGuncelle;
+    private javax.swing.JButton btnKayitSil;
+    private javax.swing.JButton btnYeniKayit;
     private javax.swing.JComboBox<String> cmbCocukSayisi;
     private javax.swing.JComboBox<String> cmbMedeniDurum;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JInternalFrame jInternalFrame1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;

@@ -137,11 +137,11 @@
                           <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnYeniKayit" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnKayitGuncelle" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnKayitSil" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="cmbMedeniDurum" alignment="1" max="32767" attributes="0"/>
                               <Component id="cmbCocukSayisi" alignment="0" pref="325" max="32767" attributes="0"/>
@@ -177,9 +177,9 @@
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnYeniKayit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnKayitGuncelle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnKayitSil" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="37" max="32767" attributes="0"/>
               </Group>
@@ -256,17 +256,17 @@
             <Property name="text" type="java.lang.String" value="T.C. Kimlik No "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="btnYeniKayit">
           <Properties>
             <Property name="text" type="java.lang.String" value="Yeni Kay&#x131;t Yap"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="btnKayitGuncelle">
           <Properties>
             <Property name="text" type="java.lang.String" value="Kayd&#x131; G&#xfc;ncelle"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="btnKayitSil">
           <Properties>
             <Property name="text" type="java.lang.String" value="Se&#xe7;ili Kayd&#x131; Sil"/>
           </Properties>
