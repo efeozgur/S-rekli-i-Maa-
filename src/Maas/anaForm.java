@@ -1,4 +1,7 @@
 package Maas;
+
+import javax.swing.table.DefaultTableModel;
+
 public class anaForm extends javax.swing.JFrame {
 
     public anaForm() {
@@ -46,17 +49,14 @@ public class anaForm extends javax.swing.JFrame {
 
         tblKisiBilgileri.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null}
+
             },
             new String [] {
-                "Adı Soyadı", "T.C. Kimlik No", "Medeni Durum", "Çocuk Sayısı", "Normal Gün", "Yemek Verilecek Gün", "Hafta Tatili", "Toplam Gün", "Brüt Ücret", "Günlük Ücret"
+                "Adı Soyadı", "Medeni Durum", "Çocuk Sayısı", "T.C. Kimlik No", "Normal Gün", "Yemek Verilecek Gün", "Hafta Tatili", "Toplam Gün", "Brüt Ücret", "Günlük Ücret"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.Boolean.class, java.lang.Integer.class, java.lang.Integer.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
+                java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -134,6 +134,11 @@ public class anaForm extends javax.swing.JFrame {
         lblKesintiler.setText("Kesintiler");
 
         btnTopluBordro.setText("Toplu Bordro Çıktısı Al");
+        btnTopluBordro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTopluBordroActionPerformed(evt);
+            }
+        });
 
         btnKisiselBordro.setText("Kişisel Bordro Çıktısı Al");
 
@@ -209,34 +214,18 @@ public class anaForm extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnTopluBordroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTopluBordroActionPerformed
+            DefaultTableModel model = (DefaultTableModel) tblKisiBilgileri.getModel();
+            Kisi kisi = new Kisi("Efe Cüneyt Özgür", true, 3);
+            Object [] eklenecek = {kisi.getAdSoyad(), String.valueOf(kisi.isMedeniDurum()), String.valueOf(kisi.getCocukSayisi())};
+            model.addRow(eklenecek);
+    }//GEN-LAST:event_btnTopluBordroActionPerformed
+
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(anaForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(anaForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(anaForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(anaForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new anaForm().setVisible(true);
