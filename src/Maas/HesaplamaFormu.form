@@ -37,42 +37,42 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
-                      <Component id="jSeparator1" min="-2" pref="351" max="-2" attributes="0"/>
+                      <Component id="sep1" min="-2" pref="351" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jSeparator2" max="32767" attributes="0"/>
+                  <Component id="sep2" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblToplamTatil" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCalisilanPazar" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblYevmiye" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAGI" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCalisilanGunSayisi" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTcNo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAdSoyad" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblEsYardimi" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCocukSayisi" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="cmbDonem" max="32767" attributes="0"/>
-                          <Component id="jTextField2" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jTextField1" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jComboBox2" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jComboBox1" alignment="1" max="32767" attributes="0"/>
+                          <Component id="tfTcNo" alignment="1" max="32767" attributes="0"/>
+                          <Component id="tfAdSoyad" alignment="1" max="32767" attributes="0"/>
+                          <Component id="cmbEsYardimi" alignment="1" max="32767" attributes="0"/>
+                          <Component id="cmbAGI" alignment="1" max="32767" attributes="0"/>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField7" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                                  <Component id="jTextField3" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                                  <Component id="jTextField4" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                                  <Component id="jTextField5" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                                  <Component id="jTextField6" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="tfCocukSayisi" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="tfCalisilanGunSayisi" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="tfToplamTatilGunu" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="tfCalisilanPazar" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="tfYevmiye" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblKisiBilgileri" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -86,82 +86,82 @@
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
               <Component id="cmbDonem" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+              <Component id="lblKisiBilgileri" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTcNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfTcNo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAdSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfAdSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEsYardimi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbEsYardimi" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCocukSayisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCocukSayisi" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAGI" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbAGI" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <Component id="sep1" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCalisilanGunSayisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCalisilanGunSayisi" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblToplamTatil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfToplamTatilGunu" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCalisilanPazar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCalisilanPazar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfYevmiye" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblYevmiye" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="sep2" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace pref="177" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="tfAdSoyad">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="lblAdSoyad">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ad&#x131; Soyad&#x131; "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="lblTcNo">
       <Properties>
         <Property name="text" type="java.lang.String" value="T.C. Kimlik No "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField2">
+    <Component class="javax.swing.JTextField" name="tfTcNo">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="lblAGI">
       <Properties>
         <Property name="text" type="java.lang.String" value="Asgari Ge&#xe7;im &#x130;ndirimi (AGI)"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="jComboBox1">
+    <Component class="javax.swing.JComboBox" name="cmbAGI">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="13">
@@ -185,7 +185,7 @@
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
+    <Component class="javax.swing.JLabel" name="lblKisiBilgileri">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
@@ -193,39 +193,39 @@
         <Property name="text" type="java.lang.String" value="Ki&#x15f;i Bilgileri"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    <Component class="javax.swing.JSeparator" name="sep1">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="lblCalisilanGunSayisi">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xc7;al&#x131;&#x15f;&#x131;lan G&#xfc;n Say&#x131;s&#x131;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField3">
+    <Component class="javax.swing.JTextField" name="tfCalisilanGunSayisi">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
+    <Component class="javax.swing.JLabel" name="lblToplamTatil">
       <Properties>
         <Property name="text" type="java.lang.String" value="Toplam Tatil G&#xfc;n&#xfc; Say&#x131;s&#x131;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField4">
+    <Component class="javax.swing.JTextField" name="tfToplamTatilGunu">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
+    <Component class="javax.swing.JLabel" name="lblCalisilanPazar">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xc7;al&#x131;&#x15f;&#x131;lan Pazar G&#xfc;n&#xfc;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField5">
+    <Component class="javax.swing.JTextField" name="tfCalisilanPazar">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
+    <Component class="javax.swing.JLabel" name="lblYevmiye">
       <Properties>
         <Property name="text" type="java.lang.String" value="Yevmiye"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField6">
+    <Component class="javax.swing.JTextField" name="tfYevmiye">
     </Component>
-    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    <Component class="javax.swing.JSeparator" name="sep2">
     </Component>
-    <Component class="javax.swing.JComboBox" name="jComboBox2">
+    <Component class="javax.swing.JComboBox" name="cmbEsYardimi">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="2">
@@ -238,17 +238,17 @@
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
+    <Component class="javax.swing.JLabel" name="lblEsYardimi">
       <Properties>
         <Property name="text" type="java.lang.String" value="E&#x15f; Yard&#x131;m&#x131;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
+    <Component class="javax.swing.JLabel" name="lblCocukSayisi">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xc7;ocuk Say&#x131;s&#x131;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField7">
+    <Component class="javax.swing.JTextField" name="tfCocukSayisi">
     </Component>
     <Component class="javax.swing.JComboBox" name="cmbDonem">
       <Properties>
